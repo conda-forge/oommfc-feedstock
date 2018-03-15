@@ -23,7 +23,6 @@ requirements:
     - pip
   run:
     - python
-    - sarge
     - scipy
     - micromagneticmodel
     - oommfodt
@@ -36,7 +35,7 @@ test:
     - oommfc
 
   commands:
-    - python -c "import oommfc; oommfc.test()"
+    - python -c "import sys; import oommfc as m; sys.exit(m.test())"
 
 about:
   home: http://joommf.github.io/
