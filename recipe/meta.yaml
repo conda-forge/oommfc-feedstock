@@ -1,6 +1,6 @@
 {% set name = "oommfc" %}
-{% set version = "0.7.8" %}
-{% set sha256 = "2528bfbf5f35143ef6239be6e4a9c66b379cc77986d77f035d5e6ad70b713e28" %}
+{% set version = "0.8" %}
+{% set sha256 = "aff88e93661fefdd0ae558474a1432aea745a1d78aa901e82d5076fd0103c7fc" %}
 
 package:
   name: {{ name|lower }}
@@ -36,7 +36,7 @@ test:
     - oommfc
 
   commands:
-    - python -c "import oommfc; oommfc.test()"
+    - python -c "import oommfc; import sys; sys.exit(oommfc.test())"
 
 about:
   home: http://joommf.github.io/
