@@ -36,7 +36,7 @@ test:
     - oommfc
 
   commands:
-    - python -c "import oommfc; sys.exit(oommfc.test())"
+    - python -c "import oommfc; import sys; sys.exit(oommfc.test())"
 
 about:
   home: http://joommf.github.io/
