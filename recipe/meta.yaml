@@ -1,6 +1,6 @@
 {% set name = "oommfc" %}
-{% set version = "0.7.8" %}
-{% set sha256 = "2528bfbf5f35143ef6239be6e4a9c66b379cc77986d77f035d5e6ad70b713e28" %}
+{% set version = "0.8.5" %}
+{% set sha256 = "f29a5a61042264312ef61fcaaf6d87ef3b3328f5df19adb9d62416d5e73aee24" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,6 @@ requirements:
     - pip
   run:
     - python
-    - sarge
     - scipy
     - micromagneticmodel
     - oommfodt
