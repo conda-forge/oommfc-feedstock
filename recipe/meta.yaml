@@ -14,7 +14,7 @@ source:
 build:
   skip: True  # [py27]
   skip: True  # [win32]
-  number: 2
+  number: 3
   script: pip install --no-deps .
 
 requirements:
@@ -58,8 +58,8 @@ about:
 
 extra:
   recipe-maintainers:
-    - fangohr
     - marijanbeg
+    - fangohr
     - takluyver
     - davidcortesortuno
     - rpep
