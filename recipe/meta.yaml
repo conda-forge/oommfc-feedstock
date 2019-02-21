@@ -60,6 +60,6 @@ extra:
   recipe-maintainers:
     - marijanbeg
     - fangohr
-    - takluyver
     - davidcortesortuno
+    - takluyver
     - rpep
