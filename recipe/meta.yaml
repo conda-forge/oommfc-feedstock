@@ -19,10 +19,10 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
   run:
-    - python
+    - python >=3.6
     - scipy
     - micromagneticmodel
     - oommfodt
