@@ -21,6 +21,7 @@ requirements:
   build:
     - python
     - pip
+    - conda-verify
   run:
     - python
     - scipy
