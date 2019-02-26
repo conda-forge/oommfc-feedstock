@@ -21,7 +21,6 @@ requirements:
   build:
     - python
     - pip
-    - conda-verify
   run:
     - python
     - scipy
@@ -30,6 +29,7 @@ requirements:
     - oommf
     - pytest
     - testpath
+  test:
     - conda-verify
 
 test:
