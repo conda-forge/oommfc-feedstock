@@ -29,6 +29,7 @@ requirements:
     - oommf
     - pytest
     - testpath
+    - conda-verify
 
 test:
   imports:
