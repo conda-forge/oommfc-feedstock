@@ -12,8 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  skip: True  # [py27]
-  skip: True  # [win32]
+  noarch: python
   number: 0
   script: pip install --no-deps .
 
