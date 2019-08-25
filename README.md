@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About oommfc
 ============
 
@@ -25,9 +21,15 @@ interface to the OOMMF micromagnetic package from NIST.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/oommfc-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/oommfc-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/oommfc-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/oommfc-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/oommfc-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/oommfc-feedstock/branch/master)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=4961&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/oommfc-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
