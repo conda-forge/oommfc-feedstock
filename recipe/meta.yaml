@@ -1,6 +1,6 @@
 {% set name = "oommfc" %}
-{% set version = "0.8.11" %}
-{% set sha256 = "ae4941bf358f2e029bc8415ad7a1a13c806058b23428accc780282a9e7eb550c" %}
+{% set version = "0.8.12" %}
+{% set sha256 = "365f43bd20459759e240d31eb6c68e7a3fa177fe0a5861b393ef8f97bc76df62" %}
 
 package:
   name: {{ name|lower }}
