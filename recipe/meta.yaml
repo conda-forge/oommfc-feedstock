@@ -21,36 +21,32 @@ requirements:
     - pip
   run:
     - python >=3.6
+    - oommf
     - scipy
     - micromagneticmodel
     - ubermagtable
-    - oommf
-    - pytest
-    - testpath
 
 test:
   imports:
     - oommfc
+    - oommfc.oommf
+    - oommfc.examples
 
   commands:
-    - python -c "import sys; import oommfc as m; sys.exit(m.test())"
+    - python -c "import sys; import oommfc as oc; sys.exit(oc.test())"
 
 about:
   home: http://ubermag.github.io/
   license: BSD-3-clause
-  summary: Python interface to OOMMF integrated into Jupyter notebook.
   license_family: BSD
   license_file: LICENSE
-
-  description: |
-    `oommfc` is a Python package that provides:
-
-    - An interface to the Object Oriented MicroMagnetic Framework OOMMF
-    - Integration of OOMMF simulations into the Jupyter notebook
-
-    It is available on all major operating systems (Windows, MacOS, Linux) and requires Python 3.6 or higher.
+  summary: OOMMF calculator.
   doc_url: http://oommfc.readthedocs.io
   dev_url: https://github.com/ubermag/oommfc
+
+  description: |
+  `oommfc` is a Python package that provides:
+    - An Object Oriented MicroMagnetic Framework OOMMF calculator for driving micromagnetic systems defined using micromagneticmodel.
 
 extra:
   recipe-maintainers:
