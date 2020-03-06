@@ -7,14 +7,10 @@ Package license: BSD-3-clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Python interface to OOMMF integrated into Jupyter notebook.
+Summary: OOMMF calculator.
 
 `oommfc` is a Python package that provides:
-
-- An interface to the Object Oriented MicroMagnetic Framework OOMMF
-- Integration of OOMMF simulations into the Jupyter notebook
-
-It is available on all major operating systems (Windows, MacOS, Linux) and requires Python 3.6 or higher.
+  - An Object Oriented MicroMagnetic Framework OOMMF calculator for driving micromagnetic systems defined using micromagneticmodel.
 
 
 Current build status
