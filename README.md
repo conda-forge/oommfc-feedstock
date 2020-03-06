@@ -1,21 +1,20 @@
 About oommfc
 ============
 
-Home: http://joommf.github.io/
+Home: http://ubermag.github.io/
 
-Package license: BSD 3-clause
+Package license: BSD-3-clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: A Python interface to the OOMMF micromagnetic calculator
+Summary: Python interface to OOMMF integrated into Jupyter notebook.
 
-The OOMMF Calculator (OOMMFC) is a calculator for the numerical
-operations required for micromagnetic calculations. Technically,
-the OOMMFC class inherits from the "micromagneticmodel", which is
-an abstract description of a micromagnetic problem.
+`oommfc` is a Python package that provides:
 
-Another way of describing OOMMFC is that it provides a Python
-interface to the OOMMF micromagnetic package from NIST.
+- An interface to the Object Oriented MicroMagnetic Framework OOMMF
+- Integration of OOMMF simulations into the Jupyter notebook
+
+It is available on all major operating systems (Windows, MacOS, Linux) and requires Python 3.6 or higher.
 
 
 Current build status
@@ -74,7 +73,7 @@ A feedstock is made up of a conda recipe (the instructions on what and how to bu
 the package) and the necessary configurations for automatic building using freely
 available continuous integration services. Thanks to the awesome service provided by
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/)
-and [TravisCI](https://travis-ci.org/) it is possible to build and upload installable
+and [TravisCI](https://travis-ci.com/) it is possible to build and upload installable
 packages to the [conda-forge](https://anaconda.org/conda-forge)
 [Anaconda-Cloud](https://anaconda.org/) channel for Linux, Windows and OSX respectively.
 
@@ -123,9 +122,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@davidcortesortuno](https://github.com/davidcortesortuno/)
 * [@fangohr](https://github.com/fangohr/)
 * [@marijanbeg](https://github.com/marijanbeg/)
-* [@rpep](https://github.com/rpep/)
 * [@takluyver](https://github.com/takluyver/)
 
