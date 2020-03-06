@@ -45,8 +45,8 @@ about:
   dev_url: https://github.com/ubermag/oommfc
 
   description: |
-  `oommfc` is a Python package that provides:
-    - An Object Oriented MicroMagnetic Framework OOMMF calculator for driving micromagnetic systems defined using micromagneticmodel.
+    `oommfc` is a Python package that provides:
+      - An Object Oriented MicroMagnetic Framework OOMMF calculator for driving micromagnetic systems defined using micromagneticmodel.
 
 extra:
   recipe-maintainers:
