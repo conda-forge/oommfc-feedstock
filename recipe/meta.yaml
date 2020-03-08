@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: pip install --no-deps . -vvv
+  script: "{{ PYTHON }} -m pip install . -vv"
 
 requirements:
   build:
@@ -29,24 +29,17 @@ requirements:
 test:
   imports:
     - oommfc
-    - oommfc.oommf
-    - oommfc.examples
-
   commands:
     - python -c "import sys; import oommfc as oc; sys.exit(oc.test())"
 
 about:
   home: http://ubermag.github.io/
-  license: BSD-3-clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: OOMMF calculator.
+  summary: 'OOMMF calculator.'
   doc_url: http://oommfc.readthedocs.io
   dev_url: https://github.com/ubermag/oommfc
-
-  description: |
-    `oommfc` is a Python package that provides:
-      - An Object Oriented MicroMagnetic Framework OOMMF calculator for driving micromagnetic systems defined using micromagneticmodel.
 
 extra:
   recipe-maintainers:
