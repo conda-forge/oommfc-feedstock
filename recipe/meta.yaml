@@ -1,6 +1,6 @@
 {% set name = "oommfc" %}
-{% set version = "0.8.13" %}
-{% set sha256 = "185c1c62a4e14e45898ca0e915d97e066ad915b8b92ddf225761417678537c96" %}
+{% set version = "0.8.14" %}
+{% set sha256 = "c24fdd7446080490e3ab5e8a67db17b94627b8a8fe94e00bc012e732de5077c1" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -37,7 +37,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: 'OOMMF calculator.'
+  summary: OOMMF calculator.
   doc_url: http://oommfc.readthedocs.io
   dev_url: https://github.com/ubermag/oommfc
 
