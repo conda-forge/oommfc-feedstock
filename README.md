@@ -3,14 +3,12 @@ About oommfc
 
 Home: http://ubermag.github.io/
 
-Package license: BSD-3-clause
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
 Summary: OOMMF calculator.
 
-`oommfc` is a Python package that provides:
-  - An Object Oriented MicroMagnetic Framework OOMMF calculator for driving micromagnetic systems defined using micromagneticmodel.
 
 
 Current build status
