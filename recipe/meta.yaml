@@ -22,8 +22,7 @@ requirements:
   run:
     - python >=3.6
     - oommf
-    - scipy
-    - micromagneticmodel
+    - micromagnetictests
     - ubermagtable
 
 test:
