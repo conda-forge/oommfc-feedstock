@@ -1,6 +1,6 @@
 {% set name = "oommfc" %}
-{% set version = "0.8.15" %}
-{% set sha256 = "8e9abf113727362264259f6de2b515967d478b7073604d10e17e0ca9dbdc58c2" %}
+{% set version = "0.8.16" %}
+{% set sha256 = "03dede31de283ddd25a33a41c9b4498dd6ea43d12df4cc065ffd4d00419ced38" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   build:
@@ -22,8 +22,7 @@ requirements:
   run:
     - python >=3.6
     - oommf
-    - scipy
-    - micromagneticmodel
+    - micromagnetictests
     - ubermagtable
 
 test:
