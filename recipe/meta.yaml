@@ -1,6 +1,6 @@
 {% set name = "oommfc" %}
-{% set version = "0.8.16" %}
-{% set sha256 = "03dede31de283ddd25a33a41c9b4498dd6ea43d12df4cc065ffd4d00419ced38" %}
+{% set version = "0.8.17" %}
+{% set sha256 = "b113c1cffc8412154081788598663565a27672fc7c877d73176232b373ddf766" %}
 
 package:
   name: {{ name|lower }}
@@ -21,9 +21,9 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - oommf
-    - micromagnetictests
-    - ubermagtable
+    - oommf ==2.0a1
+    - micromagnetictests ==0.1.1
+    - ubermagtable ==0.1.10
 
 test:
   imports:
