@@ -43,5 +43,5 @@ about:
 extra:
   recipe-maintainers:
     - marijanbeg
-    - fangohr
     - takluyver
+    - fangohr
