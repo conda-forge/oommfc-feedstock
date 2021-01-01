@@ -119,6 +119,7 @@ Feedstock Maintainers
 =====================
 
 * [@fangohr](https://github.com/fangohr/)
+* [@lang-m](https://github.com/lang-m/)
 * [@marijanbeg](https://github.com/marijanbeg/)
 * [@takluyver](https://github.com/takluyver/)
 
