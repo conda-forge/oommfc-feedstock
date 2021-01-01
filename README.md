@@ -5,11 +5,13 @@ Home: http://ubermag.github.io/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/oommfc-feedstock/blob/master/LICENSE.txt)
 
 Summary: OOMMF calculator.
 
+Development: https://github.com/ubermag/oommfc
 
+Documentation: http://oommfc.readthedocs.io
 
 Current build status
 ====================
