@@ -1,5 +1,5 @@
 {% set name = "oommfc" %}
-{% set version = "0.8.25" %}
+{% set version = "0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: aec4f827bec416ee323b516854234e5322ddd0a3fc80b8f85a01e2a62deabf7a
+  sha256: 05e8b9eea83ac75d7f944c4d4b1d0ad99b27ccfb7da060a47c0eb87761dbda98
 
 build:
   noarch: python
@@ -21,8 +21,8 @@ requirements:
   run:
     - python >=3.8
     - oommf ==2.0a1
-    - micromagnetictests ==0.1.8
-    - ubermagtable ==0.3
+    - micromagnetictests ==0.2
+    - ubermagtable ==0.4
 
 test:
   imports:
