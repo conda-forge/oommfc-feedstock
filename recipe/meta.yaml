@@ -21,8 +21,8 @@ requirements:
   run:
     - python >=3.8
     - oommf ==2.0a1
-    - micromagnetictests ==0.2
-    - ubermagtable ==0.4
+    - micromagnetictests ==0.3
+    - ubermagtable ==0.6
 
 test:
   imports:
