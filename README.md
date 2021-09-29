@@ -11,7 +11,7 @@ Summary: OOMMF calculator.
 
 Development: https://github.com/ubermag/oommfc
 
-Documentation: http://oommfc.readthedocs.io
+Documentation: https://ubermag.github.io/documentation/oommfc.html
 
 Current build status
 ====================
@@ -122,5 +122,6 @@ Feedstock Maintainers
 * [@fangohr](https://github.com/fangohr/)
 * [@lang-m](https://github.com/lang-m/)
 * [@marijanbeg](https://github.com/marijanbeg/)
+* [@samjrholt](https://github.com/samjrholt/)
 * [@takluyver](https://github.com/takluyver/)
 
