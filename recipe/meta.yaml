@@ -1,5 +1,5 @@
 {% set name = "oommfc" %}
-{% set version = "0.10.1" %}
+{% set version = "0.60.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8744a8c76d84cbb389224c4a0376bc6e380a9e901081ef703fa4146c174a35aa
+  sha256: cac2b96f4110e9cfd7b0e98b6208828d62b89c5c7c16e6bbf72eb2a9e0b48556
 
 build:
   noarch: python
@@ -20,9 +20,9 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - oommf ==2.0a1
-    - micromagnetictests ==0.3.1
-    - ubermagtable ==0.6.1
+    - oommf ==2.0a2
+    - micromagnetictests >=0.60.0,<0.61.0
+    - ubermagtable >=0.60.0,<0.61.0
 
 test:
   imports:
@@ -36,7 +36,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: OOMMF calculator.
-  doc_url: http://oommfc.readthedocs.io
+  doc_url: https://ubermag.github.io/documentation/oommfc.html
   dev_url: https://github.com/ubermag/oommfc
 
 extra:
@@ -45,3 +45,4 @@ extra:
     - takluyver
     - fangohr
     - lang-m
+    - samjrholt
