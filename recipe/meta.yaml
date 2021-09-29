@@ -20,9 +20,9 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - oommf ==2.0a1
-    - micromagnetictests ==0.3.1
-    - ubermagtable ==0.6.1
+    - oommf ==2.0a2
+    - micromagnetictests >=0.60.0,<0.61.0
+    - ubermagtable >=0.60.0,<0.61.0
 
 test:
   imports:
@@ -36,7 +36,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: OOMMF calculator.
-  doc_url: http://oommfc.readthedocs.io
+  doc_url: https://ubermag.github.io/documentation/oommfc.html
   dev_url: https://github.com/ubermag/oommfc
 
 extra:
@@ -45,3 +45,4 @@ extra:
     - takluyver
     - fangohr
     - lang-m
+    - samjrholt
