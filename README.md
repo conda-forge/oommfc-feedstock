@@ -124,5 +124,6 @@ Feedstock Maintainers
 * [@lang-m](https://github.com/lang-m/)
 * [@marijanbeg](https://github.com/marijanbeg/)
 * [@samjrholt](https://github.com/samjrholt/)
+* [@swapneelap](https://github.com/swapneelap/)
 * [@takluyver](https://github.com/takluyver/)
 
