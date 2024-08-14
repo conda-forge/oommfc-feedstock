@@ -1,5 +1,5 @@
 {% set name = "oommfc" %}
-{% set version = "0.64.1" %}
+{% set version = "0.65.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 486b7b7a8a3b2d336db9ecc886067ca90f04c59d6d0b2611954e82ea79943779
+  sha256: 965bc4626e67cef2f598cb96851bc8723dc57284443e9f85615e6f8c2010f6e3
 
 build:
   noarch: python
