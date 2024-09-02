@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - oommf ==2.0b0
+    - oommf ==2.0b0.post1
     - micromagneticmodel >=0.64.0
     - micromagnetictests >=0.63.2
     - ubermagtable >=0.61.4
