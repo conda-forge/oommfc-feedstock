@@ -1,5 +1,5 @@
 {% set name = "oommfc" %}
-{% set version = "0.65.0" %}
+{% set version = "0.66.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,25 +7,26 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 965bc4626e67cef2f598cb96851bc8723dc57284443e9f85615e6f8c2010f6e3
+  sha256: 55772b9cb609bd54a2aeef3aa4620e64450a8546959c18755f764d8eb96ba644
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - python {{ python_min }}
+    - setuptools
     - pip
   run:
     - python >={{ python_min }}
     - oommf ==2.0b0.post1
-    - micromagneticmodel >=0.64.0
-    - micromagnetictests >=0.63.2
-    - ubermagtable >=0.61.4
-    - ubermagutil >=0.63.4
-    - micromagneticdata >=0.65.3
+    - micromagneticmodel >=0.65.0
+    - micromagnetictests >=0.64.0
+    - ubermagtable >=0.62.0
+    - ubermagutil >=0.64.0
+    - micromagneticdata >=0.66.0
 
 test:
   requires:
